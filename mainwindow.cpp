@@ -8,6 +8,7 @@ MainWindow::MainWindow(QWidget *parent) :
     ui->setupUi(this);
     ui->label->setText("Hello git");
     //添加注释
+    //验证跳过暂存的提交
 }
 
 MainWindow::~MainWindow()
